@@ -1,0 +1,20 @@
+
+3월 06, 2024 17:02:09.12 NEW SESSION
+3월 06, 2024 17:02:09.13 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 06, 2024 17:02:36.23 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 06, 2024 17:08:18.91 [18052:13928:0306/170818.915:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+3월 06, 2024 17:08:49.04 [18052:13928:0306/170849.044:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+3월 08, 2024 12:29:03.16 NEW SESSION
+3월 08, 2024 12:29:03.18 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 08, 2024 12:53:14.41 [7932:5756:0308/125314.413:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+3월 08, 2024 14:17:09.54 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 08, 2024 15:08:07.85 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 08, 2024 15:43:00.12 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 08, 2024 16:06:54.50 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 08, 2024 16:30:56.33 [10712:10140:0308/163056.331:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+3월 08, 2024 16:38:05.02 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 08, 2024 17:24:27.43 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 08, 2024 17:26:55.46 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 08, 2024 17:38:50.02 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 08, 2024 18:26:42.39 [5168:1380:0308/182642.399:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost

@@ -1,0 +1,27 @@
+package com.ict.model;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.ict.db.MemberDAO;
+import com.ict.db.MemberVO;
+
+public class AccountCommand implements Command{
+
+	@Override
+	public String exec(HttpServletRequest request, HttpServletResponse response) {
+		String id = request.getParameter("id");
+		String pwd = request.getParameter("pwd");
+		String name = request.getParameter("name");
+		String email = request.getParameter("email");
+		String addr = request.getParameter("addr");
+		String phone = request.getParameter("phone");
+		
+		MemberVO mvo = ;
+		
+		
+		
+		return "guestbook/account.jsp";
+	}
+
+}

@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>액션태그 : include, forward</title>
+</head>
+<body>
+<%--
+	액션태그 : jsp 페이지간에 흐름제어, 자바빈즈 컴포넌트 지원
+ --%>
+</body>
+</html>

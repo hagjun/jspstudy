@@ -1,0 +1,5 @@
+package com.ict.db;
+// 실제 DB처리하는 DAO
+public class Guest_DAO {
+	
+}

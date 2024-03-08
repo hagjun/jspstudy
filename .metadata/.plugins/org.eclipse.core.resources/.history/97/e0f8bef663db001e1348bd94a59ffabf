@@ -1,0 +1,19 @@
+package com.ict.model;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Command03 implements Command {
+
+	@Override
+	public String exec(HttpServletRequest request, HttpServletResponse response) {
+		String s1 = request.getParameter("s1");
+		String s2 = request.getParameter("s2");
+		String op = request.getParameter("op");
+		
+		
+		
+		return "view/ex13_res03.jsp";
+	}
+
+}

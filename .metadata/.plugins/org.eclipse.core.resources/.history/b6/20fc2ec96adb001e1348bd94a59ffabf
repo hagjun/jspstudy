@@ -1,0 +1,17 @@
+package com.ict.model;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Command04 implements Command {
+
+	@Override
+	public String exec(HttpServletRequest request, HttpServletResponse response) {
+		// 일처리 (성적 처리)
+		
+		
+		
+		return "view/ex14_res.jsp";
+	}
+
+}

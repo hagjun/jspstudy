@@ -1,0 +1,40 @@
+package com.ict.model;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Command03 implements Command {
+
+	@Override
+	public String exec(HttpServletRequest request, HttpServletResponse response) {
+		String s1 = request.getParameter("s1");
+		String s2 = request.getParameter("s2");
+		String op = request.getParameter("op");
+		
+		try {
+			int res = 0;
+			switch (op) {
+			case "+":
+				res = s1 + s2;
+				break;
+			case "-":
+				res = s1 - s2;
+				break;
+			case "*":
+				res = s1 * s2;
+				break;
+			case "/":
+				res = s1 / s2;
+				break;
+
+			}
+			out.println("<h2>" + s1 + op + s2 + "=" + res + "</h2>");
+		} catch (Exception e) {
+			out.println("<h2>0 으로는 나눌 수 없습니다.</h2>");
+		}
+		break;
+		
+		return "view/ex13_res03.jsp";
+	}
+
+}

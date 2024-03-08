@@ -1,0 +1,28 @@
+package com.ict.model;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.ict.db.MemberDAO;
+import com.ict.db.MemberVO;
+
+
+
+public class LoginCommand implements Command {
+
+	@Override
+	public String exec(HttpServletRequest request, HttpServletResponse response) {
+		//String id = request.getParameter("id");
+		//String pwd = request.getParameter("pwd");
+		
+		List<MemberVO> mm = MemberDAO.getList();
+		
+		request.setAttribute("mm", response);
+		
+		
+		return "guestbook/login.jsp";
+	}
+
+}

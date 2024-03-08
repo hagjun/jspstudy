@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%-- 
+	EL(Expression Language) : 표현언어
+	jsp <%= %> 대신에 사용한다.
+	<%= 변수값 이나 메서드의 결과 %>
+--%>
+</body>
+</html>

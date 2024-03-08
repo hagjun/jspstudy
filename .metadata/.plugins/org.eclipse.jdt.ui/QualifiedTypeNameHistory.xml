@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="com.ict.model.command01"/>
+    <fullyQualifiedTypeName name="com.ict.model.command02"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.ict.db.VO"/>
+    <fullyQualifiedTypeName name="com.ict.model.ListCommand"/>
+    <fullyQualifiedTypeName name="com.ict.db.GuestDBService"/>
+    <fullyQualifiedTypeName name="com.ict.model.WriteCommand"/>
+    <fullyQualifiedTypeName name="com.ict.model.WriteOKCommand"/>
+    <fullyQualifiedTypeName name="com.ict.model.OneListCommand"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.ict.db.GuestDAO"/>
+    <fullyQualifiedTypeName name="com.ict.db.GuestVO"/>
+    <fullyQualifiedTypeName name="com.ict.model.Command"/>
+    <fullyQualifiedTypeName name="com.ict.model.LoginCommand"/>
+    <fullyQualifiedTypeName name="com.ict.model.AccountCommand"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.ict.model.AccountOkCommand"/>
+    <fullyQualifiedTypeName name="com.ict.db.MemberDBService"/>
+    <fullyQualifiedTypeName name="com.ict.db.MemberDAO"/>
+    <fullyQualifiedTypeName name="com.ict.db.MemberVO"/>
+    <fullyQualifiedTypeName name="javax.websocket.Session"/>
+    <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>내장객체 : pageContext</title>
+</head>
+<body>
+<%--
+	pageContext 객체는 JSP 기본 내장 객체 이다.
+	JSP 페이지에서 1:1 로 연결된 객체 JSP 페이지당 하의 pageContext 객체가 생성
+	같은 페이지에서 서로 값을 공유할 수 있으며 다른 기본내장객체를 구하거나 페이지의 흐름을 제어한다.
+	1. 데이터 저장 : pageContext.setAttribute("이름", 객체);
+	   데이터 호출 : pageContext.getAttribute("이름") => EL 사용가능 ${이름}
+	   
+	   
+ --%>
+</body>
+</html>

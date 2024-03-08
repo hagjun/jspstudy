@@ -1,0 +1,22 @@
+package com.ict.db;
+
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+
+public class MemberDAO {
+	private static SqlSession ss;
+	
+	private synchronized static SqlSession getSession() {
+		if(ss == null) {
+			ss = GuestDBService.getFactory().openSession();
+		}
+		return ss;
+	}
+	// 리스트
+		public static List<MemberVO> getList(){
+			List<MemberVO> list = null;
+			list = getSession().selectList("MemberVO.list");
+			return list;
+		}
+}

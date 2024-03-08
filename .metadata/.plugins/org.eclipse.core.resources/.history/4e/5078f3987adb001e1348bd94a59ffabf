@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>지시어 : Directives</title>
+</head>
+<body>
+<!-- html 주석 : 소스 보기에서 보인다. -->
+<%-- JSP 주석 : 소스 보기에서 보이지 않는다. --%>
+
+</body>
+</html>

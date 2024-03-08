@@ -1,0 +1,14 @@
+package com.ict.db;
+
+import org.apache.ibatis.session.SqlSession;
+
+public class MemberDAO {
+	private static SqlSession ss;
+	
+	private synchronized static SqlSession getSession() {
+		if(ss == null) {
+			ss = GuestDBService.getFactory().openSession();
+		}
+		return ss;
+	}
+}

@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>내장객체 : response</title>
+</head>
+<body>
+<%--
+	response(응답) : 응담에 대한 정보를 가지고 있는 객체
+	  - 헤더 정보
+	  - 쿠키 정보
+	  - 리다이렉트 사용 : response.sendRedirect("이동할 주소");
+	  
+	  
+--%>	
+</body>
+</html>

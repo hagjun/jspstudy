@@ -1,0 +1,5 @@
+package com.ict.db;
+
+public class MemberVO {
+	private String idx,  id, pwd, name, email, addr, phone, regdate;
+}

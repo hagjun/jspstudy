@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>액션태그 : include, forward</title>
+</head>
+<body>
+<%--
+	액션태그 : jsp 페이지간에 흐름제어, 자바빈즈 컴포넌트 지원
+	  사용법 : <jsp: 액션태그>   
+	  
+	  1. include : 현재 페이지에서 다른 페이지 호출 또는 
+	               다른 페이지의 결과를 현재 페이지에 보여주는 것
+	    1) 지시어 include
+	    2) 액션 include
+ --%>
+ 
+ <jsp:include page=""></jsp:include>
+</body>
+</html>
